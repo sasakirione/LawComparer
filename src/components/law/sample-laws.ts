@@ -58,7 +58,7 @@ export const sampleLaws: Law[] = [
     name: "ガス等漏出致死",
     description: "ガス等漏出致死（刑法第118条第2項）は、ガス等を漏出させて人を死亡させた場合に適用される罪です。",
     penalties: [
-      { id: 14, description: "3年以上の有期懲役", imprisonmentYears: 1.5 }
+      { id: 14, description: "3年以上の有期懲役", imprisonmentYears: 11.5 }
     ]
   },
   {
@@ -66,7 +66,7 @@ export const sampleLaws: Law[] = [
     name: "往来妨害致死",
     description: "往来妨害致死（刑法第124条第2項）は、往来を妨害して人を死亡させた場合に適用される罪です。",
     penalties: [
-      { id: 15, description: "3年以上の有期懲役", imprisonmentYears: 1.5 }
+      { id: 15, description: "3年以上の有期懲役", imprisonmentYears: 11.5 }
     ]
   },
   {
@@ -92,7 +92,7 @@ export const sampleLaws: Law[] = [
     name: "浄水汚染等致死",
     description: "浄水汚染等致死（刑法第145条）は、浄水を汚染させて人を死亡させた場合に適用される罪です。",
     penalties: [
-      { id: 20, description: "3年以上の有期懲役", imprisonmentYears: 1.5 }
+      { id: 20, description: "3年以上の有期懲役", imprisonmentYears: 11.5 }
     ]
   },
   {
