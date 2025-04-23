@@ -5,3 +5,5 @@ export default function LawMainPage(){
     <LawExplorer/>
   </>)
 }
+
+export const runtime = 'edge';
