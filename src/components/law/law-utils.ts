@@ -24,7 +24,7 @@ export const getSimilarLaws = (
       getMaxImprisonmentYears(law, showAttemptPenalties) - 
       getMaxImprisonmentYears(selectedLaw, showAttemptPenalties)
     ) <= 2
-  )
+  ).slice(0, 5)
 }
 
 export const sortLawsByImprisonment = (
